@@ -24,12 +24,11 @@ body {
 
 .project-card {
     background-color: white;
-    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
     transition: transform 0.2s;
-    flex: 1 1 calc(21% - 20px); 
+    flex: 1 1 20%; 
     margin: 10px;
     min-width: 200px; 
 }
@@ -38,6 +37,13 @@ body {
     transform: translateY(-5px);
 }
 
+.project-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 110px;
+}
 
 .project-image img {
     max-width: 30%;
