@@ -28,7 +28,7 @@ body {
     border-radius: 8px;
     text-align: center;
     transition: transform 0.2s;
-    flex: 1 1 20%; 
+    flex: 0 0 20%; 
     margin: 10px;
     min-width: 200px; 
 }
@@ -49,3 +49,21 @@ body {
     max-width: 30%;
 }
 
+.project-title {
+    font-size: 1.2em;
+    margin: 8px 8px;
+    text-align: left;
+}
+.project-description {
+    font-size: 0.9em;
+    color: #555;
+    padding: 0 8px;
+    text-align: left;
+}
+.project-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 1px solid #007bff;
+}
