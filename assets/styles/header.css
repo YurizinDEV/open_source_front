@@ -1,5 +1,5 @@
 header {
-    background: url(../images/headerBackground.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(230, 238, 245, 0.7), rgba(230, 238, 245, 0.7)), url(../images/headerBackground.jpg) no-repeat center center/cover;
     color: #202124;
     height: 220px;
     display: flex;
