@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f7fafc; 
+    background-color: #f7fafc;
 }
 
 .main-content {
@@ -20,12 +20,12 @@ body {
     border-radius: 8px;
     text-align: center;
     transition: transform 0.2s;
-    flex: 0 0 20%; 
+    flex: 0 0 20%;
     margin: 10px;
-    min-width: 250px; 
+    min-width: 250px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .project-card:hover {
@@ -36,16 +36,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0f7fa; 
     height: min(150px);
 }
 
+.project-card:nth-child(1) .project-image {
+    background-color: #e3f0fc;
+    /* Chromium */
+}
+
+.project-card:nth-child(2) .project-image {
+    background-color: #c9f0ff;
+    /* React */
+}
+
+.project-card:nth-child(3) .project-image {
+    background-color: #ffe0c2;
+    /* Ubuntu */
+}
+
+.project-card:nth-child(4) .project-image {
+    background-color: #ffd6d6;
+    /* Git */
+}
+
+.project-card:nth-child(5) .project-image {
+    background-color: #c8f7d2;
+    /* Android */
+}
+
+.project-card:nth-child(6) .project-image {
+    background-color: #dbefff;
+    /* Typescript */
+}
+
+.project-card:nth-child(7) .project-image {
+    background-color: #fff3c2;
+    /* Tensorflow */
+}
+
+.project-card:nth-child(8) .project-image {
+    background-color: #d2f9d6;
+    /* Docusaurus */
+}
+
 .project-image img {
-    max-width: 40%; 
+    max-width: 40%;
 }
 
 .project-title {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     margin: 8px 8px;
     text-align: left;
     color: rgb(32, 33, 36);
@@ -62,7 +101,7 @@ body {
     display: flex;
     gap: 8px;
     margin: min(40px) 0 8px 8px;
-    justify-content: flex-start; 
+    justify-content: flex-start;
 }
 
 .project-tags span {
@@ -70,7 +109,7 @@ body {
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 0.8em;
-    border: 1px solid rgb(95, 99, 105); 
+    border: 1px solid rgb(95, 99, 105);
     color: rgb(95, 99, 105);
 }
 
@@ -82,7 +121,7 @@ body {
     padding: 8px 16px;
     cursor: pointer;
     transition: background-color 0.2s;
-    text-decoration: none; 
+    text-decoration: none;
     margin-top: auto;
     display: inline-block;
     text-align: left;
@@ -92,7 +131,6 @@ body {
 }
 
 .project-link:hover {
-    background-color:rgb(28, 115, 232);
+    background-color: rgb(28, 115, 232);
     color: white;
 }
-
